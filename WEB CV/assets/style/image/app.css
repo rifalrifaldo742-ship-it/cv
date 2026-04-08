@@ -1,0 +1,97 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(#9a08dd 0%, #dd4c4f 40%, #7420d3 100%);
+       width: 100%;
+}
+
+/* Foto profile */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #0d6efd;
+  object-fit: cover;
+}
+
+/* Slide */
+.carousel-item {
+  padding: 50px 20px;
+  min-height: 500px;
+  animation: fade 0.8s;
+}
+
+/* Judul */
+h4 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Animasi */
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Tombol slider */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+  padding: 20px;
+}
+.Pendidikan {
+    display: block;
+    margin-left: 43px;
+}
+.Pengalaman{
+    display: block;
+    margin-left: 100px;
+}
+.sip {
+  display: block;
+  margin-left: 373px;
+}
+.contack a{
+  font-size: 30px;
+}
+.BIODATA {
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 15px;
+  background-color: rgba(0,0,0,0.2);
+}
+.PENDIDIKAN {
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 15px;
+  background-color: rgba(0,0,0,0.2);
+}
+.PENGALAMAN {
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 15px;
+  background-color: rgba(0,0,0,0.2);
+}
+.ACHIEVEMENT {
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 15px;
+  background-color: rgba(0,0,0,0.2);
+}
+.CONTACT {
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 15px;
+  background-color: rgba(0,0,0,0.2);
+}
